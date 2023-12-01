@@ -1,17 +1,10 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-<<<<<<< HEAD
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-=======
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 */
 
 html, body, div, span, applet, object,
@@ -620,7 +613,6 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-<<<<<<< HEAD
 			line-height: 10;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
@@ -628,12 +620,6 @@ input, select, textarea {
 
 			
 			
-=======
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 		}
 
 		.icon > .label {
@@ -655,11 +641,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-<<<<<<< HEAD
 		border-radius: px;
-=======
-		border-radius: 4px;
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -932,21 +914,14 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
-<<<<<<< HEAD
 				border-radius: 50%;
-=======
-				border-radius: 100%;
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 				box-shadow: inset 0 0 0 1px #ffffff;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
 				text-align: center;
 				width: 2.25rem;
-<<<<<<< HEAD
 				
-=======
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 			}
 
 				ul.icons li a:hover {
@@ -957,7 +932,6 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-<<<<<<< HEAD
 /* Icons 2 */
     ul.icons2 {
 	cursor: default;
@@ -993,8 +967,6 @@ input, select, textarea {
 				background-color: rgba(255, 255, 255, 0.175);
 			}
 
-=======
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 /* Table */
 
 	.table-wrapper {
@@ -1207,18 +1179,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-<<<<<<< HEAD
 			background-size: auto,
  256px 256px;
 			background-position: center,
  center;
 			background-repeat: no-repeat,
  repeat;
-=======
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 			z-index: 2;
 		}
 
@@ -1231,11 +1197,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-<<<<<<< HEAD
 			background-image: url("../../images/peter-lloyd-rRWyOn9gat4-unsplash.jpg");
-=======
-			background-image: url("../../images/bg.jpg");
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1370,17 +1332,11 @@ input, select, textarea {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-<<<<<<< HEAD
 			line-height: 6.25rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 
 			
-=======
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 		}
 
 			#header .logo .icon:before {
@@ -1410,11 +1366,7 @@ input, select, textarea {
 			}
 
 				#header .content .inner > :last-child {
-<<<<<<< HEAD
 					margin-bottom: 10px;
-=======
-					margin-bottom: 0;
->>>>>>> 01bcc9dd3765f5ed1a65b45e9d9351877c49eb49
 				}
 
 			#header .content p {
