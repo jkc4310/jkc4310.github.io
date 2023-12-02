@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js");	
+
 
 /*
 	Dimension by HTML5 UP
@@ -936,7 +938,9 @@ input, select, textarea {
     ul.icons2 {
 	cursor: default;
 	list-style: none;
+	padding-top: 50px 50px;
 	padding-left: 0;
+	margin-top: 0px;
     }
 
 	ul.icons2 li {
@@ -1301,6 +1305,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#homescreenicons2 {
+		position: absolute;
+		margin-top: 0px !important;
+		padding-top: 25px;
+		
+	}
+	
+
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out;
@@ -1480,6 +1492,7 @@ input, select, textarea {
 					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
 				}
+				
 
 			#header .logo {
 				width: 4.75rem;
