@@ -643,14 +643,15 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: px;
+		border-radius: 100px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 	.image-grid{
+			
 			display: grid;
-			grid-template-columns: repeat(1, 1fr);
+			grid-template-columns: repeat(auto, minmax(200px, 1fr));
 			grid-gap: 15px;
 			grid-template-areas: 
 			"image1 image2"
@@ -658,28 +659,31 @@ input, select, textarea {
 		}
 
 		.image1{
-			grid-area: image1;
-			max-width: 273px;
-			max-height: auto;
-			;
+			width: 100%;
+			height: auto;
+			display: block;
+			max-width: 100%;
 		}
 
 		.image2{
-			grid-area: image2;
-			max-width: 273px;
-			max-height: auto;
+			width: 100%;
+			height: auto;
+			display: block;
+			max-width: 100%;
 		}
 
 		.image3{
-			grid-area: image3;
-			max-width: 273px;
-			max-height: auto;
+			width: 100%;
+			height: auto;
+			display: block;
+			max-width: 100%;
 		}
 
 		.image4{
-			grid-area: image4;
-			max-width: 273px;
-			max-height: auto;
+			width: 100%;
+			height: auto;
+			display: block;
+			max-width: 100%;
 		}
 
 		
@@ -1344,6 +1348,8 @@ input, select, textarea {
 		position: absolute;
 		margin-top: 0px !important;
 		padding-top: 25px;
+		bottom: -10px;
+		top: 76px;
 		
 	}
 	
